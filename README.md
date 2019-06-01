@@ -9,7 +9,7 @@ A trip to Hawaii is being planned and the task is to obtain the data and run som
 ![Precipitation_Data_Over_Last_Year](Output/Precipitation_Data_Over_Year.csv)
 
 ## Data Frame Containing Data Over The Year Starting From Last Data Point in Database (Head Of First 20)
-![Year_Precipitation_Data_Frame](Images/)
+![Year_Precipitation_Data_Frame](Images/All_Precipitation_Measurements_Over_Year.png)
 
 ## Maximum Precipitation Data For Each Day Over The Year Starting From Last Data Point in Database (Head Of First 20)
 ![Maximum_Precipitation_Over_Year](Images/Precipitation_Maximum_Day_For_Year_Head_Data_Frame.png)
@@ -24,13 +24,13 @@ A trip to Hawaii is being planned and the task is to obtain the data and run som
 ![Number_Of_Weather_Stations](Images/Station_Counts.png)
 
 ## Most Active Stations In Descending Order
-![Most_Active_Weather_Stations](Images/)
+![Most_Active_Weather_Stations](Images/Most_Active_Stations.png)
 
 ## Statistics Of Most Active Station
-![Most_Active_Weather_Station_Statistics](Images/)
+![Most_Active_Weather_Station_Statistics](Images/Most_Active_Station_Statistics.png)
 
 ## Most Active Station With Temperature Observations Data Frame
-![Weather_Station_Temperature_Observations_Data_Frame](Images/)
+![Weather_Station_Temperature_Observations_Data_Frame](Images/Most_Active_Station_Temperatures_Data_Frame.png)
 
 ## Histogram Of Most Active Station With Temperature Observations Data Frame
 ![Histogram_Most_Active_Weather_Station_Temperatures](Images/Temperature_Count_Histogram.png)
