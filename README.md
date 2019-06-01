@@ -33,7 +33,7 @@ A trip to Hawaii is being planned and the task is to obtain the data and run som
 ![Weather_Station_Temperature_Observations_Data_Frame](Images/Most_Active_Station_Temperatures_Data_Frame.png)
 
 ## Histogram Of Most Active Station With Temperature Observations Data Frame
-![Histogram_Most_Active_Weather_Station_Temperatures](Images/Temperature_Count_Histogram.png)
+![Histogram_Most_Active_Weather_Station_Temperatures](Images/Most_Active_Station_Temperature_Count_Histogram.png)
 
 ## Calculate Temperatures Function Example
 ![Calculate_Temperatures_Function_Statistics_Example](Images/Calculate_Temperature_Function_Example.png)
