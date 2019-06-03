@@ -41,8 +41,11 @@ A trip to Hawaii is being planned and the task is to obtain the data and run som
 ## Calculate Temperatures Function Using 1 Year Before Vacation (Custom Time Frame In Which We Plan The Vacation)
 ![Calculate_Temperatures_Function_Statistics_Vacation_Dates](Images/Calculate_Temperature_Using_Vacation_Dates.png)
 
+## Average Temperature Of Highest Temperatures Recorded From Single Weather Station
+![Average_Temperatures_Of_Highest_Weather_Station_Recording](Images/Greatest_Temperature_Averages.png)
+
 ## Bar Chart For Trip Average Temperature With Error Bar
-![Bar_Chart_Trip_Average_With_Error_Bar](Images/Trip_Average_Temperature_With_Error.png)
+![Bar_Chart_Trip_Average_With_Error_Bar](Images/Greatest_Temperature_Averages_Bar_Chart_With_Error.png)
 
 ## Weather Station Information Using 1 year Before Vacation (Custom Time Frame In Which We Plan The Vacation)
 ![Weather_Station_Information_Vacation_Dates](Images/Group_By_Station_Precipitation.png)
