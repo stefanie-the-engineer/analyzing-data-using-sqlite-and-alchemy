@@ -8,16 +8,17 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify
 
 # Database Setup
-engine = create_engine("../Resources/sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 
 # Reflect an existing database into a new model
 Base = automap_base()
 
 # Reflect the tables
-Base.prepare(engine, reflect=True)
+Base.prepare(engine, reflect = True)
 
 # Save reference to the table
-Passenger = Base.classes.passenger
+Station = Base.classes.hawaii_stations
+Measurement = Base.classes.hawaii_measurements
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
@@ -26,7 +27,6 @@ session = Session(engine)
 app = Flask(__name__)
 
 # Flask Routes
-
 @app.route("/")
 def home():
     """List all available API routes."""
@@ -41,6 +41,14 @@ def home():
 @app.route("/api/v1.0/precipitation")
 def precipitation():
     """List of Precipitation"""
+    # Quwey all precipitation data
+    results = session.query(Measurement.prcp).all()
+
+    # Convert list of tuples into normal list
+    all_precipitation = list(np.ravel(results))
+
+    return jsonify(all_precipitation)
+
     
 @app.route("/api/v1.0/stations")
 def stations():
