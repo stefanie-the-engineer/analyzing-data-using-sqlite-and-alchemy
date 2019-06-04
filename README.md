@@ -1,4 +1,4 @@
-# Hawaiian Vacation
+# Analyzing Data Using SQLite & Alchemy
 
 A trip to Hawaii is being planned and the task is to obtain the data and run some analytics to get some of the statistics related to the rainfall over the last year. The task was completed using SQLite as a database and Alchemy as the ORM to query the SQLite database. From here we created a couple of graphs using Pandas and Matplotlib. We have a Data Frame that depicts the general statistics, 2 bar graphs and a histogram. There is also a CSV in which we printed the results obtained from a query. The statistics that we obtained are outlined below.
 
